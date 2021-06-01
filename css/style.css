@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-image: url(img/background.png);
+}
+
+header{
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(202, 240, 251, 255) ;
+    color: white;
+    padding-top: 23px;
+    font-family: 'Righteous', cursive;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    
+}
+
+main{
+    width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 400px 400px;
+   
+}
+
+form{
+    padding-top: 150px;
+    font-family: 'Righteous', cursive;
+    background-color: #5d4b7696;
+
+
+
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd){
+    background-color: #5d4b7696;
+}
+
+table tr ;:nth-child(event){
+    background-color: #fffdfe88;
+}
+
+tr{
+    border: 2px solid black;
+}
+
+th{
+    padding: 5px;
+}
+
+select{
+    margin-top:10px ;
+    width: 310px;
+    height: 20px;
+}
+
+#form button{
+    width: 350px;
+    height: 20px;
+    background-color: #786c8896;
+}
+
+footer{
+    background-color: #f376a288;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    font-family: 'Righteous', cursive;
+font-size: medium;
+color: white;
+}
+
+input{
+    margin-top: 10px;
+    width: 300px;
+    height: 20px;
+    grid-template-columns: 30px 30px;
+}
+
