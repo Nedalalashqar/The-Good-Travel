@@ -50,7 +50,7 @@ table tr:nth-child(odd){
     background-color: #5d4b7696;
 }
 
-table tr ;:nth-child(event){
+table tr:nth-child(event){
     background-color: #fffdfe88;
 }
 
@@ -80,8 +80,8 @@ footer{
     padding-top: 2px;
     padding-bottom: 30px;
     font-family: 'Righteous', cursive;
-font-size: medium;
-color: white;
+    font-size: medium;
+    color: white;
 }
 
 input{
